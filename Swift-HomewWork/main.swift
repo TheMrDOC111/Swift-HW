@@ -1,7 +1,7 @@
 import Foundation
 
 //common
-func readIntSafty() -> Int {
+func readIntSafety() -> Int {
     return Int(readLine() ?? "") ?? 0
 }
 
@@ -82,7 +82,8 @@ func readIntSafty() -> Int {
 //for _ in 0..<n {
 //    inputNumbers.append(readLine() ?? "")
 //}
-//inputNumbers.reverse()
-//inputNumbers.forEach { line in
-//    print(line)
-//}
+//inputNumbers
+//    .reversed()
+//    .forEach { line in
+//        print(line)
+//    }
