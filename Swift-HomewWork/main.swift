@@ -2,7 +2,7 @@ import Foundation
 
 //common
 func readIntSafety() -> Int {
-    return Int(readLine() ?? "") ?? 0
+    Int(readLine() ?? "") ?? 0
 }
 
 
@@ -87,3 +87,46 @@ func readIntSafety() -> Int {
 //    .forEach { line in
 //        print(line)
 //    }
+
+
+//Home work - 7
+//let n = readIntSafety()
+//var nameOf = Set<String>()
+//for _ in 0..<n {
+//    nameOf.insert(readLine() ?? "")
+//}
+//let m = readIntSafety()
+//for _ in 0..<m {
+//    let name = readLine() ?? ""
+//    if !nameOf.contains(name) {
+//        print(name)
+//    }
+//}
+
+
+//Home work - 8
+//let n = readIntSafety()
+//var contacts = [String : String]()
+//for _ in 0..<n {
+//    let name = readLine() ?? ""
+//    let number = readLine() ?? ""
+//    contacts[name] = number
+//}
+//for (name, number) in contacts {
+//    print(name)
+//    print(number)
+//}
+
+
+//Home work - 9
+//let n = readIntSafety()
+//var array = [Int]()
+//for _ in 0..<n {
+//    array.append(readIntSafety())
+//}
+//array.sorted().forEach { i in
+//    print(i)
+//}
+//array.forEach { i in
+//    print(i)
+//}
