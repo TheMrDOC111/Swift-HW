@@ -121,9 +121,4 @@ func readIntSafety() -> Int {
 //Home work - 9
 let n = readIntSafety()
 let array = (0..<n).reduce([Int]()) { (arr, _) in arr + [readIntSafety()]}
-array.sorted().forEach { i in
-    print(i)
-}
-array.forEach { i in
-    print(i)
-}
+[array.sorted(), array].flatMap { $0 }.forEach { print($0) }
